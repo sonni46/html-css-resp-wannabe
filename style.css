@@ -78,6 +78,7 @@ img {
     }
 
   .row {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +105,17 @@ img {
     h1 {
       font-size: 50px;
     }
-     
+
+    .left,
+    .central,
+    .right,
+    .first,
+    .second,
+    .third {
+      float: none !important;
+      width: 95% !important;
+    }
+
 }
 
 @media (min-width:421px) {
@@ -117,14 +128,4 @@ img {
     width: 100%;
     }
 
-
-  .left,
-    .central,
-    .right,
-    .first,
-    .second,
-    .third {
-      float: none !important;
-      width: 95% !important;
-    }
 }
