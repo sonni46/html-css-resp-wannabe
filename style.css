@@ -71,3 +71,60 @@ img {
 .clear {
   clear: both;
 }
+
+@media (max-width:420px) {
+    * {
+      margin: 0;
+    }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    padding-bottom: 5%;
+    }
+
+    .container.grey {
+      background-color: white;
+    }
+
+    #lezioni .row {
+      background-color: wheat;
+    }
+
+    #steps .row {
+      margin: 30px 0;
+    }
+
+    #why .row {
+      background-color: wheat;
+    }
+    
+    h1 {
+      font-size: 50px;
+    }
+     
+}
+
+@media (min-width:421px) {
+
+  * {
+    margin: 0;
+  }
+
+  .row {
+    width: 100%;
+    }
+
+
+  .left,
+    .central,
+    .right,
+    .first,
+    .second,
+    .third {
+      float: none !important;
+      width: 95% !important;
+    }
+}
